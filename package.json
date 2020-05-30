@@ -1,0 +1,29 @@
+{
+  "name": "warcraftlogsapitester",
+  "version": "1.0.0",
+  "description": "testing warcraft logs API using typescript and nodejs",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duskyqt/ApiTesting.git"
+  },
+  "author": "TheQt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duskyqt/ApiTesting/issues"
+  },
+  "homepage": "https://github.com/Duskyqt/ApiTesting#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.6",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
